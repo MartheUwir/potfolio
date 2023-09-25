@@ -1,10 +1,37 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+import Avt1 from '../../assets/avatar1.jpg'
+import Avt2 from '../../assets/avatar2.jpg'
+import Avt3 from '../../assets/avatar3.jpg'
+import Avt4 from '../../assets/avatar4.jpg'
 
+const data = [
+  {
+    avatar:Avt1,
+    name: 'CITO RUTH',
+    review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught me so much . I got many things from her thoughout academic year'
+
+  },
+  {
+    avatar:Avt2,
+    name: 'Kimon',
+    review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught me so much . I got many things from her thoughout academic year'
+
+  },
+  {
+    avatar:Avt3,
+    name: 'CITO RUTH',
+    review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught me so much . I got many things from her thoughout academic year'
+
+  },
+  {
+    avatar:Avt4,
+    name: 'CITO RUTH',
+    review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught me so much . I got many things from her thoughout academic year'
+
+  }
+
+]
 
 const Testimonials = () => {
   return (
@@ -12,67 +39,22 @@ const Testimonials = () => {
       <h5>Review From Clients</h5>
       <h2>Testimonials</h2>
       <div className="container testimonials_container">
-        <article className='testimonial'>
+        
+   {
+     data.map(({avatar,name,review},index) => {
+      return(
+        <article key={index} className='testimonial'>
           <div className="client_avatar">
-            <img src={AVTR1} alt="geez" />
+            <img src={avatar} alt="geez" />
 
           </div>
-          <h5 className='client_name'>ALX se founders</h5>
-          <small className="client_review">
-            Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Voluptatem est, autem quia et minus at eligendi dolores dicta illo
-            exercitationem, in
-            libero optio recusandae sit? Fuga veniam minus quae culpa.
-
-          </small>
+          <h5 className='client_name'>{name}</h5>
+          <small className="client_review">{review}</small>
         </article>
+      )
 
-        <article className='testimonial'>
-          <div className="client_avatar">
-            <img src={AVTR2} alt="geez" />
-
-          </div>
-          <h5 className='client_name'>Intelsat space stem</h5>
-          <small className="client_review">
-            Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Voluptatem est, autem quia et minus at eligendi dolores dicta illo
-            exercitationem, in
-            libero optio recusandae sit? Fuga veniam minus quae culpa.
-
-          </small>
-        </article>
-
-        <article className='testimonial'>
-          <div className="client_avatar">
-            <img src={AVTR3} alt="geez" />
-
-          </div>
-          <h5 className='client_name'>Narayan Verdante</h5>
-          <small className="client_review">
-            Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Voluptatem est, autem quia et minus at eligendi dolores dicta illo
-            exercitationem, in
-            libero optio recusandae sit? Fuga veniam minus quae culpa.
-
-          </small>
-        </article>
-
-        <article className='testimonial'>
-          <div className="client_avatar">
-            <img src={AVTR4} alt="geez" />
-
-          </div>
-          <h5 className='client_name'>Narayan Verdante</h5>
-          <small className="client_review">
-            Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Voluptatem est, autem quia et minus at eligendi dolores dicta illo
-            exercitationem, in
-            libero optio recusandae sit? Fuga veniam minus quae culpa.
-
-          </small>
-        </article>
-
-
+     })
+   }
 
       </div>
     </section>
