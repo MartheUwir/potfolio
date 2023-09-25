@@ -8,26 +8,26 @@ import Avt4 from '../../assets/avatar4.jpg'
 const data = [
   {
     avatar:Avt1,
-    name: 'CITO RUTH',
+    name: 'Rwanda Coding Academy',
     review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught me so much . I got many things from her thoughout academic year'
 
   },
   {
     avatar:Avt2,
-    name: 'Kimon',
+    name: 'Africa Agility',
     review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught me so much . I got many things from her thoughout academic year'
 
   },
   {
     avatar:Avt3,
-    name: 'CITO RUTH',
+    name: 'ALX SE instructors',
     review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught me so much . I got many things from her thoughout academic year'
 
   },
   {
     avatar:Avt4,
-    name: 'CITO RUTH',
-    review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught me so much . I got many things from her thoughout academic year'
+    name: 'Intelsat space',
+    review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught '
 
   }
 
