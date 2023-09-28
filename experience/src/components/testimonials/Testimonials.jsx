@@ -9,25 +9,25 @@ const data = [
   {
     avatar:Avt1,
     name: 'Rwanda Coding Academy',
-    review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught me so much . I got many things from her thoughout academic year'
+    review: 'This is high school where Marthe have acquired all the basic knowledge in here, RCA learning though digital innovation in project based learning . Shee worked on different projects and W truly believe that RCA Paved her Software engineering jourey'
 
   },
   {
     avatar:Avt2,
     name: 'Africa Agility',
-    review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught me so much . I got many things from her thoughout academic year'
+    review: 'Marthe participated in this global program Africa Agility studying Artificial Intelligence. We believe that her AI skills advanced in here and the proudly presented certificate she Got approves that so far'
 
   },
   {
     avatar:Avt3,
     name: 'ALX SE instructors',
-    review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught me so much . I got many things from her thoughout academic year'
+    review: 'AS Alx software engineering program mentors, we believe in passionate way that Marthe used. since 2022 learning here in Alx SE program .We believe that she gained more and gave more of her knowledge and effors.'
 
   },
   {
     avatar:Avt4,
     name: 'Intelsat space',
-    review: 'This one classmate and sitmate of mine who guide me everyday can testfy how passionate I am as she taught '
+    review: 'Judi Sandrock, Leader of Intelsat space Program Assures that Marthe participated in Intelsat Space program. She showed great desire to learn, teach and collaborate with others on different space projects.'
 
   }
 
