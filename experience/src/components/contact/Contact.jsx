@@ -34,7 +34,7 @@ const Contact = () => {
    </article>
 
         </div>
-        {/* END OF CONTACTS */}
+        {/* END OF CONTACT */}
 
         <form action="">
           <input type="text" name='name' placeholder='Your Full Name' required/>
@@ -47,4 +47,4 @@ const Contact = () => {
   ) 
 }
 
-export default Contact 
+export default Contact   
