@@ -20,7 +20,12 @@
     row-gap: 3rem;
 
 }
-
+.experience_frontend{
+    margin-right: 7px;
+}
+.experience_backend{
+    margin-left:3rem ;
+}
 .experience_container > div h3{
     text-align: center;
     margin-bottom: 2rem;
